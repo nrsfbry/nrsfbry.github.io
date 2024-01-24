@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .testimonial-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .testimonial {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-author {
+            font-size: 14px;
+            font-style: italic;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <nav class="h-14 w-full flex items-center relative mb-5 shadow-xl">
+                <ul class="w-full h-full bg-neutral-100 flex gap-4 justify-center items-center">
+                    <li>
+                        <a href="index.html" class="hover:opacity-70">Home</a>
+                    </li>
+                    <li>
+                        <a href="gambar.html" class="hover:opacity-70">Products</a>
+                    </li>
+                    <li>
+                        <a href="testi.html" class="hover:opacity-70">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html" class="hover:opacity-70">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="artikel.html" class="hover: opacity-70">Tugas Story Telling</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="flex w-full ms-20 mb-5">
+            <div class="w-1/2 flex flex-col justify-center">
+                <span class="text-2xl">Hello</span>
+                <h1 class="font-bold text-4xl">I’M SHOP FRUITS SALAD</h1>
+                <p class="text-2xl">Dapatkan salad buah yang sehat dan segar yang dapat
+                    Anda nikmati kapan saja dan di mana saja.</p>
+            </div>
+            <div class="w-1/2">
+                <img src="salaaad.jpg" class="salad" alt="" width="400px">
+            </div>
+        </div>
+    </header>
+
+    <div class="container text-center mb-3">
+        <h1 class="font-bold text-3xl">Deskripsi</h1>
+    </div>
+
+    <div class="row align-items-start mb-5" style="margin-left: 19%;">
+        <div class="col-3">
+            <img src="saladbuah9.jpg" class="beranda" alt="" width="450px">
+            <p class="text-25px"> Kami menjual salad buah premium dengan memilih berkualitas namun dengan harga yang
+                terjangkau. </p>
+        </div>
+        <div class="col-3">
+            <img src="saladbuah8.jpg" class="beranda2" alt="" width="450px">
+            <p class="text-25px"> Kami menyediakan ukuran kotak yang berbeda-beda untuk berbagai selera, dari yang
+                ukuran individu sampai keluarga. </p>
+        </div>
+        <div class="col-3">
+            <img src="saladbuah4.jpg" class="beranda3" alt="" width="450px">
+            <p class="text-25px">Item dalam kotak bisa disesuaikan. Anda dapat mengganti item dalam pesanan dengan
+                sesuatu yang diinginkan.</p>
+        </div>
+    </div>
+
+    <div class="w-full flex justify-end pr-20 py-14">
+        <div>
+            <div class="text-start">
+                <h1 class="font-bold text-3xl">Alasan Anda akan Menyukai 
+                    <br> Salad Buah Ku</h1>
+            </div>
+    
+            <div class="text-start w-96">
+                <p class="text-xl"> Terbuat dari potongan buah segar yang diberi saus mayonaise dan yoghurt menciptakan
+                    sensasi
+                    segar yang mengasikkan dimulut. Apa lagi jika dinikmati saat kondisi dingin dengan ditambah parutan keju
+                    yang banyak, ehmm tentunya akan melegakantenggorokan dan menambah nikmat saat berkumpul. </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center mb-3">
+        <h1 class="font-bold text-4xl">Testimonial</h1>
+    </div>
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <p>"Pelayanan mereka luar biasa! Saya harap beberapa dari mereka sekarang menggunakan layanan Anda."</p>
+            <p class="testimonial-author">- Fiona</p>
+        </div>
+        <div class="testimonial">
+            <p>"Kami sangat senang dengan kotaknya, terutama karena kami bisa membeli kotak standar ataupun memilih
+                sendiri isi kotak yang diinginkan."</p>
+            <p class="testimonial-author">- Joseph</p>
+        </div>
+    </div>
+
+    <section id="contact" class="bg-gray-100 py-16 bg-neutral-200">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center">
+
+            <!-- Contact Information (Right) -->
+            <div class="lg:w-1/2">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Address</h3>
+                <p class="text-gray-600 mb-2">Address: Dusun Rancamukti, Desa Mekarmulya, Kec. Kertajati</p>
+                <p class="text-gray-600 mb-2">Phone: 0858-6070-1560</p>
+                <p class="text-gray-600">Email: noniserina230@gmail.com</p>
+            </div>
+
+            
+        </div>
+    </section>
+</body>
+</html>
